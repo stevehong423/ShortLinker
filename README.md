@@ -11,6 +11,7 @@ START THE APPLICATION:
 
 
 ALGORITHM/SOLUTION TO GENERATE RANDOM LINK:
+
 I installed the package 'uniqid' to generate a random string.  If you navigate to shortenURL.js inside of the Routes/Api directory,
 you will discover a POST Request (which is invoked upon the user clicking a button), that checks if the URL already exists in the database
 (which is a MongoDB database).  If it's a branch new URL, the algorithm creates a new instance of the URL schema, putting in uniqid() as the value
