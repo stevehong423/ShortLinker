@@ -19,3 +19,13 @@ you will discover a POST Request (which is invoked upon the user clicking a butt
 (which is a MongoDB database).  If it's a branch new URL, the algorithm creates a new instance of the URL schema, putting in uniqid() as the value
 for the ID.  This ID is than attached to "http://short.link/<insert id hash here>".  This can be seen in App.js on the client side, where I used 'data.id' 
 and 'result.data.hash'.  
+  
+  
+JEST API TEST
+
+I added a simple Jest API test, to test the fetch request to 'http://localhost:5000', which is the endpoint that stores all entries into the input in an array of objects.
+The test can be viewed in the client directory, in App.test.js.
+  
+
+  
+Thank you for your time!  I enjoyed this assignment :)
