@@ -10,6 +10,8 @@ START THE APPLICATION:
 7. Run the application with 'npm run dev', which will run client and server side together with concurrently.
 
 
+
+
 ALGORITHM/SOLUTION TO GENERATE RANDOM LINK:
 
 I installed the package 'uniqid' to generate a random string.  If you navigate to shortenURL.js inside of the Routes/Api directory,
